@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>HTML5 Practical — Media</title>
+  <meta name="description" content="HTML5 media examples: images, audio, video, captions." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://example.com/media.html" />
+      <link rel="stylesheet" href="assets/css/styles.css" />
+
+</head>
+<body>
+  <a href="#main">Skip to content</a>
+  <header>
+    <h1>Media Demo</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html" aria-current="page">Media</a></li>
+        <li><a href="extras.html">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <section>
+        <h2>Responsive Image</h2>
+        <figure>
+          <picture>
+            <source srcset="https://www.designveloper.com/wp-content/uploads/2022/07/HTML5.jpg" media="(min-width: 1000px)">
+            <source srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Big_Ben_2015-10_img3.jpg/640px-Big_Ben_2015-10_img3.jpg" media="(min-width: 600px)">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Big_Ben_2015-10_img3.jpg/320px-Big_Ben_2015-10_img3.jpg" alt="Big Ben London">
+          </picture>
+          <figcaption>Responsive image using the <code>&lt;picture&gt;</code> element.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Audio</h2>
+        <audio controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/ogg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section>
+        <h2>YouTube Video Example</h2>
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/watch?v=pTFZFxd4hOI" 
+  title="HTML5 Tutorial for Beginners" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+</video>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> Your Name</p>
+  </footer>
+</body>
+</html>

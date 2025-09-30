@@ -14,8 +14,3 @@ A simple HTML project showcasing [your project purpose, e.g., a personal portfol
 - Clean and simple design
 - Easy to customize
 
-## How to View
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git

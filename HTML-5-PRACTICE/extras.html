@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-  <a href="#main">Skip to content</a>
+  <a href="#main" class="skip-link">Skip to content</a>
   <header>
     <h1>Extras</h1>
     <nav aria-label="Primary">
@@ -26,29 +26,31 @@
     <article>
       <section>
         <h2>Table Example</h2>
-        <table>
-          <caption>Weekly Study Plan</caption>
-          <thead>
-            <tr>
-              <th scope="col">Week</th>
-              <th scope="col">Topic</th>
-              <th scope="col">Hours</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th><td>HTML5 Semantics</td><td>6</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th><td>Advanced HTML5 APIs</td><td>6</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <th scope="row" colspan="2">Total</th><td>12</td>
-            </tr>
-          </tfoot>
-        </table>
+        <div class="table-wrapper">
+          <table>
+            <caption>Weekly Study Plan</caption>
+            <thead>
+              <tr>
+                <th scope="col">Week</th>
+                <th scope="col">Topic</th>
+                <th scope="col">Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th><td>HTML5 Semantics</td><td>6</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th><td>Advanced HTML5 APIs</td><td>6</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th scope="row" colspan="2">Total</th><td>12</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
       </section>
 
       <section>

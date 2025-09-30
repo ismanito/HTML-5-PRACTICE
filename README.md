@@ -1,15 +1,27 @@
+<<<<<<< HEAD
 # HTML5 + CSS3 + Docker Practical
 
 A responsive, accessible 4-page static website built with modern CSS3 and served via Docker.
+=======
+# 🌐 HTML5 Practical (No Forms, No JS)
 
-## Technologies Used
+This project demonstrates modern **HTML5 semantics**, **accessibility**, **media embedding**, and **CSS styling**.
+>>>>>>> fcebde6f2ec89d3e98c424f7d9c1f51fae5afa3c
 
+---
+
+<<<<<<< HEAD
 - HTML5 (semantic markup, accessibility features)
 - CSS3 (Grid, Flexbox, Custom Properties, Media Queries)
 - Docker (nginx:alpine)
+=======
+## 🔗 Live Site
+👉 [View Here](https://ismanito.github.io/HTML-5-PRACTICE/)
+>>>>>>> fcebde6f2ec89d3e98c424f7d9c1f51fae5afa3c
 
-## Features
+---
 
+<<<<<<< HEAD
 - **Responsive Design**: Mobile-first approach with breakpoints at 480px, 768px, and 1024px
 - **Dark Mode**: Automatic dark theme based on user preference
 - **Accessibility**: WCAG AA compliant, skip links, proper focus states
@@ -113,4 +125,25 @@ html5-practical/
 - **Accessibility**: 95+
 - **Best Practices**: 95+
 - **SEO**: 95+
+=======
+## 📄 Pages
+- **index.html** — Semantic structure, skip link, headings, quotes, time, abbr, code/kbd/samp.  
+- **about.html** — Sections, lists, definition lists, internal links.  
+- **media.html** — `<picture>` responsive image, audio, video with VTT captions, and a YouTube iframe.  
+- **extras.html** — Tables (caption/thead/tbody/tfoot), `<details>`, `<dialog open>`, `<progress>`, `<meter>`.  
+>>>>>>> fcebde6f2ec89d3e98c424f7d9c1f51fae5afa3c
 
+---
+
+## 🎨 CSS
+The project includes a **custom CSS stylesheet** to enhance:  
+- Page layout and responsive design  
+- Typography and color contrast for accessibility  
+- Styling for tables, forms (where applicable), and interactive elements  
+
+---
+
+## 👤 Author
+**Ismahan**
+
+---
